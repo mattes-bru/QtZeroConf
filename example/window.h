@@ -51,8 +51,9 @@ private slots:
 	void startPublishClicked();
 	void stopPublishClicked();
 	void addService(QZeroConfService item);
-    void removeService(QZeroConfService item);
-    void updateService(QZeroConfService zcs);
+	void removeService(QZeroConfService item);
+	void updateService(QZeroConfService zcs);
+
 };
 
 #endif /* WINDOW_H_ */

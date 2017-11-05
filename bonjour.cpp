@@ -264,6 +264,7 @@ QZeroConf::QZeroConf(QObject *parent) : QObject (parent)
 {
     qRegisterMetaType<QZeroConfService>("QZeroConfService");
 	pri = new QZeroConfPrivate(this);
+	qRegisterMetaType<QZeroConfService>("QZeroConfService");
 }
 
 QZeroConf::~QZeroConf()
